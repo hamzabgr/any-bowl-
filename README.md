@@ -9,3 +9,4 @@ Download these tools first:
 ### 🚀 Commands
 ```bash
 chmod +x ./dovi_tool && mkvextract tracks movie.mkv 0:movie.hevc && ./dovi_tool -m 2 extract-rpu movie.hevc -o RPU.bin && ./dovi_tool inject-rpu --rpu-in RPU.bin --input movie.hevc -o final_movie.hevc && rm movie.hevc RPU.bin
+Note: Rename your 4K Remux file to movie.mkv before running the script, or edit the script to match your filename
